@@ -1,1 +1,9 @@
+Encapsulation
+============
+is the OOPS concept of wrapping data (variables) and methods (functions) into a single unit (class) and restricting direct access to data by using access modifiers.
 
+👉 Data is accessed only through methods, not directly.
+
+Data hiding 
+===========
+Data hiding means preventing direct access to data by making variables private.
