@@ -1,1 +1,26 @@
+Polymorphism
+............
+👉 Poly = many, morph = forms
+Polymorphism means one method name having different behaviors depending on the object or input.
+Polymorphism allows the same method to perform different actions based on the object or parameters.
+There are two types of polymorphism
 
+Compile-Time Polymorphism (Method Overloading)
+Same method name, different signature if arguments are same then order should be diffrent.
+
+example....
+==========
+class Calculator {
+    int add(int a, int b) {
+        return a + b;
+    }
+
+    int add(int a, int b, int c) {
+        return a + b + c;
+    }
+}
+* Decided at compile time
+so during compile time only compiler get to know which method to map on method invokation
+
+Run Time polymorphism - method overriding
+======================
