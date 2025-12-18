@@ -1,0 +1,104 @@
+Lambda Expression : 
+A lambda expression is a short, clean, inline function without a name.
+It is mainly used to replace anonymous classes of Functional Interfaces.
+
+Interface reference can be used to hold lamda expression
+
+Using lamda expression we dont need to write separate implementation class 
+we can provide implementation in lamda expression.
+Example 
+// Without Lambda
+Runnable r1 = new Runnable() {
+    public void run() {
+        System.out.println("Hello");
+    }
+};
+
+// With Lambda
+Runnable r2 = () -> System.out.println("Hello");
+
+Rules
+()-> means a function
+
+No need to specify type
+
+No need for return keyword if single statement
+
+Basic Syntax
+(arguments) -> { body }
+
+
+Examples:
+() -> System.out.println("Hello");
+a -> a * a
+(a, b) -> a + b
+
+Lambda Works Only With Functional Interfaces Example:
+
+@FunctionalInterface
+interface A {
+    void show();
+}
+
+Use it with lambda:
+
+A obj = () -> System.out.println("Hello");
+obj.show();
+
+
+EASY LEVEL
+=============
+Print all even numbers from a given list using Stream + Lambda.
+Convert a list of strings to uppercase using map().
+
+Filter names starting with the letter “A” from a list.
+
+Generate a list of squares for a given list of integers.
+
+Print each element of a list using forEach() and lambda.
+
+Count how many numbers are greater than 10 in a list.
+
+Find all strings whose length is greater than 4 using lambda.
+
+
+MEDIUM LEVEL
+======
+
+Find the maximum number in a list using streams.
+
+Count how many strings have length > 3.
+
+Sort a list of integers in descending order using lambda.
+
+Remove duplicates from a list using Stream distinct().
+
+Find the second highest number from a list.
+
+Convert a list of integers to a list of strings using map().
+
+Filter employees whose salary > 50,000 (Employee class).
+
+Find sum of all odd numbers in a list using filter() + sum().
+
+HARD LEVEL
+=========
+Find the first non-repeated character in a string using streams.
+
+Group employees by department using Collectors.groupingBy().
+
+Find the frequency of each character in a string.
+
+Sort a list of employees by salary, then by name using comparator + lambda.
+
+Find the longest string in a list using streams.
+
+Find sum of all even numbers using reduce().
+
+Partition a list into even and odd numbers using partitioningBy().
+
+Find duplicate elements in a list using streams.
+
+Convert a list of words into a map with word → length.
+
+Find the highest-paid employee in each department.
