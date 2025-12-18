@@ -1,1 +1,48 @@
+Question asked in interviews
+===========================
+Q1- Count the number of occurence of letter first repeting letter count Using java 8 features.
 
+Q2- Sum of all employee salalry using lambda and streame api, Also find employees whose salary greater than 10k using java 8	
+					
+Q3- Find the name from list which starts from letter b using stream					
+	   ("Alice", "Bob", "Charlie", "David", "Eva", "Bob")
+					
+Q4- Convert list of integers into list of strings using java 8
+					
+Q5- Employee class with field id name and age sort the employee class based on names using stream
+								
+Q6- Write a method that takes an integer array and an integer target, and returns a pair of indices (as an int[]) 										
+	where the elements at those indices sum to the target.										
+	For example, if the array is [2, 7, 11, 15] and the target is 9, the method should return [0, 1] 										
+	since the elements at indices 0 and 1 (2 and 7) sum to 9. 										
+	Solve this in JAVA 8 where  Array is [10, 11, 23, 27, 32, 37] and target is 33.										
+
+Q7-  Write a Java 8 program that reads a list of strings and sorts them in descending order of their lengths. 									
+	Use lambda expressions and the Stream API to accomplish this task.									
+	Strings = ("apple", "banana", "kiwi", "orange", "grapefruit").	
+   
+Q8  [ "Apple", "Banana", "Kiwi", "Orange", "Grapefruit" ] 
+    - Print the longest string using java 8
+
+Q9   ["Pen", "Eraser", "Notebook", "Pen", "Pencil", "Pen", "Notebook", "Pencil" ]   ->  LTI MindTree. 2nd Round
+     Find most repeated element from array using java 8
+
+Q10-  list of student having id, name, age, gender and course ? 
+     (1) first requirment :  names , id are even numbers and java= course ? 
+      2) sencond requirment  : and numer of female student course =testing using java 8?   -> LTI Mindtree Round1 
+      3) third requirement : names in alphabatical order ?
+
+Q11 - Given a list of integers, find out all the numbers starting with 1 using Stream functions?     
+      10,15,8,49,25,98,32,14
+
+Q12-  Find the second max element of an array [2, 7, 11, 15] using streams.
+
+Q13-  Given a list of integers, find out all the numbers starting with 1 using Stream functions?     
+      10,15,8,49,25,98,32,14
+
+Q14- [ "Apple", "Banana", "Kiwi", "Orange", "Grapefruit" ] 
+    - Print the longest string using java 8.
+
+Q15-["Pen", "Eraser", "Notebook", "Pen", "Pencil", "Pen", "Notebook", "Pencil" ]
+      Find most repeated element from array using java 8
+						
